@@ -1,0 +1,814 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3729B11C28A76F0A0024A1DE /* mfers StickerPackExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 3729B11B28A76F0A0024A1DE /* mfers StickerPackExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3729B12028A76F0A0024A1DE /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = 3729B11F28A76F0A0024A1DE /* Stickers.xcstickers */; };
+		3729B12128A76F0A0024A1DE /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = 3729B11F28A76F0A0024A1DE /* Stickers.xcstickers */; };
+		376CB545295A54DF006B9F47 /* DaoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376CB544295A54DF006B9F47 /* DaoView.swift */; };
+		376CB546295A54DF006B9F47 /* DaoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376CB544295A54DF006B9F47 /* DaoView.swift */; };
+		376CB549295A556C006B9F47 /* ZoraAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 376CB548295A556C006B9F47 /* ZoraAPI */; };
+		376CB54B295A556C006B9F47 /* ZoraUI in Frameworks */ = {isa = PBXBuildFile; productRef = 376CB54A295A556C006B9F47 /* ZoraUI */; };
+		376CB552295A5BB1006B9F47 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376CB551295A5BB1006B9F47 /* Color.swift */; };
+		376CB553295A5BB1006B9F47 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376CB551295A5BB1006B9F47 /* Color.swift */; };
+		376CB556295FB148006B9F47 /* ImageViewer in Frameworks */ = {isa = PBXBuildFile; productRef = 376CB555295FB148006B9F47 /* ImageViewer */; };
+		376CB558295FB148006B9F47 /* ImageViewerRemote in Frameworks */ = {isa = PBXBuildFile; productRef = 376CB557295FB148006B9F47 /* ImageViewerRemote */; };
+		37C6E75228D5408B00ADF3FA /* mfersappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C6E74328D5408A00ADF3FA /* mfersappApp.swift */; };
+		37C6E75328D5408B00ADF3FA /* mfersappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C6E74328D5408A00ADF3FA /* mfersappApp.swift */; };
+		37C6E75428D5408B00ADF3FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C6E74428D5408A00ADF3FA /* ContentView.swift */; };
+		37C6E75528D5408B00ADF3FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C6E74428D5408A00ADF3FA /* ContentView.swift */; };
+		37C6E75628D5408B00ADF3FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37C6E74528D5408B00ADF3FA /* Assets.xcassets */; };
+		37C6E75728D5408B00ADF3FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37C6E74528D5408B00ADF3FA /* Assets.xcassets */; };
+		37C6E76028D5420800ADF3FA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C6E75F28D5420800ADF3FA /* Extensions.swift */; };
+		37C6E76128D5420800ADF3FA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C6E75F28D5420800ADF3FA /* Extensions.swift */; };
+		37C6E76328D544FF00ADF3FA /* MferGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C6E76228D544FF00ADF3FA /* MferGenerator.swift */; };
+		37C6E76428D544FF00ADF3FA /* MferGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C6E76228D544FF00ADF3FA /* MferGenerator.swift */; };
+		37D9C28B28DA8A5B0030DB75 /* CreateMferView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D9C28A28DA8A5B0030DB75 /* CreateMferView.swift */; };
+		37D9C28C28DA8A5B0030DB75 /* CreateMferView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D9C28A28DA8A5B0030DB75 /* CreateMferView.swift */; };
+		37D9C28F28DA95DE0030DB75 /* MferImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D9C28E28DA95DE0030DB75 /* MferImage.swift */; };
+		37D9C29028DA95DE0030DB75 /* MferImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D9C28E28DA95DE0030DB75 /* MferImage.swift */; };
+		37E1B97A295828360092F497 /* GenerateMferView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E1B979295828360092F497 /* GenerateMferView.swift */; };
+		37E1B97B295828360092F497 /* GenerateMferView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E1B979295828360092F497 /* GenerateMferView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3729B11D28A76F0A0024A1DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3729B11128A76F0A0024A1DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3729B11A28A76F0A0024A1DE;
+			remoteInfo = "mfers StickerPackExtension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3729B12728A76F0A0024A1DE /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3729B11C28A76F0A0024A1DE /* mfers StickerPackExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3729B11728A76F0A0024A1DE /* mfers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mfers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3729B11B28A76F0A0024A1DE /* mfers StickerPackExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "mfers StickerPackExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3729B11F28A76F0A0024A1DE /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; name = Stickers.xcstickers; path = "mfers StickerPackExtension/Stickers.xcstickers"; sourceTree = "<group>"; };
+		376CB544295A54DF006B9F47 /* DaoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaoView.swift; sourceTree = "<group>"; };
+		376CB551295A5BB1006B9F47 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		376CB55B2963833F006B9F47 /* mfersapp--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "mfersapp--iOS--Info.plist"; sourceTree = "<group>"; };
+		37C6E74328D5408A00ADF3FA /* mfersappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mfersappApp.swift; sourceTree = "<group>"; };
+		37C6E74428D5408A00ADF3FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		37C6E74528D5408B00ADF3FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37C6E74A28D5408B00ADF3FA /* mfersapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mfersapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37C6E74F28D5408B00ADF3FA /* mfersapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mfersapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37C6E75128D5408B00ADF3FA /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		37C6E75E28D540CE00ADF3FA /* mfersapp (iOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "mfersapp (iOS).entitlements"; sourceTree = "<group>"; };
+		37C6E75F28D5420800ADF3FA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		37C6E76228D544FF00ADF3FA /* MferGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MferGenerator.swift; sourceTree = "<group>"; };
+		37D9C28A28DA8A5B0030DB75 /* CreateMferView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateMferView.swift; sourceTree = "<group>"; };
+		37D9C28E28DA95DE0030DB75 /* MferImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MferImage.swift; sourceTree = "<group>"; };
+		37DC34E028B87C180051F7F0 /* mfers StickerPackExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = "mfers StickerPackExtension.entitlements"; path = "mfers StickerPackExtension/mfers StickerPackExtension.entitlements"; sourceTree = "<group>"; };
+		37E1B979295828360092F497 /* GenerateMferView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateMferView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37C6E74728D5408B00ADF3FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				376CB54B295A556C006B9F47 /* ZoraUI in Frameworks */,
+				376CB556295FB148006B9F47 /* ImageViewer in Frameworks */,
+				376CB558295FB148006B9F47 /* ImageViewerRemote in Frameworks */,
+				376CB549295A556C006B9F47 /* ZoraAPI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37C6E74C28D5408B00ADF3FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3729B11028A76F0A0024A1DE = {
+			isa = PBXGroup;
+			children = (
+				376CB55B2963833F006B9F47 /* mfersapp--iOS--Info.plist */,
+				37C6E75E28D540CE00ADF3FA /* mfersapp (iOS).entitlements */,
+				37DC34E028B87C180051F7F0 /* mfers StickerPackExtension.entitlements */,
+				3729B11F28A76F0A0024A1DE /* Stickers.xcstickers */,
+				37C6E74228D5408A00ADF3FA /* Shared */,
+				37C6E75028D5408B00ADF3FA /* macOS */,
+				3729B11828A76F0A0024A1DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3729B11828A76F0A0024A1DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3729B11728A76F0A0024A1DE /* mfers.app */,
+				3729B11B28A76F0A0024A1DE /* mfers StickerPackExtension.appex */,
+				37C6E74A28D5408B00ADF3FA /* mfersapp.app */,
+				37C6E74F28D5408B00ADF3FA /* mfersapp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37C6E74228D5408A00ADF3FA /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				37D9C28D28DA95B50030DB75 /* Models */,
+				37D9C28928DA8A210030DB75 /* Tools */,
+				37D9C28828DA8A0B0030DB75 /* Views */,
+				37C6E74328D5408A00ADF3FA /* mfersappApp.swift */,
+				37C6E74528D5408B00ADF3FA /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		37C6E75028D5408B00ADF3FA /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				37C6E75128D5408B00ADF3FA /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		37D9C28828DA8A0B0030DB75 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				37C6E74428D5408A00ADF3FA /* ContentView.swift */,
+				37D9C28A28DA8A5B0030DB75 /* CreateMferView.swift */,
+				37E1B979295828360092F497 /* GenerateMferView.swift */,
+				376CB544295A54DF006B9F47 /* DaoView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		37D9C28928DA8A210030DB75 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				37C6E75F28D5420800ADF3FA /* Extensions.swift */,
+				37C6E76228D544FF00ADF3FA /* MferGenerator.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		37D9C28D28DA95B50030DB75 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				37D9C28E28DA95DE0030DB75 /* MferImage.swift */,
+				376CB551295A5BB1006B9F47 /* Color.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3729B11628A76F0A0024A1DE /* mfers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3729B12828A76F0A0024A1DE /* Build configuration list for PBXNativeTarget "mfers" */;
+			buildPhases = (
+				3729B11528A76F0A0024A1DE /* Resources */,
+				3729B12728A76F0A0024A1DE /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3729B11E28A76F0A0024A1DE /* PBXTargetDependency */,
+			);
+			name = mfers;
+			productName = mfers;
+			productReference = 3729B11728A76F0A0024A1DE /* mfers.app */;
+			productType = "com.apple.product-type.application.messages";
+		};
+		3729B11A28A76F0A0024A1DE /* mfers StickerPackExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3729B12428A76F0A0024A1DE /* Build configuration list for PBXNativeTarget "mfers StickerPackExtension" */;
+			buildPhases = (
+				3729B11928A76F0A0024A1DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mfers StickerPackExtension";
+			productName = "mfers StickerPackExtension";
+			productReference = 3729B11B28A76F0A0024A1DE /* mfers StickerPackExtension.appex */;
+			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
+		};
+		37C6E74928D5408B00ADF3FA /* mfersapp (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37C6E75C28D5408B00ADF3FA /* Build configuration list for PBXNativeTarget "mfersapp (iOS)" */;
+			buildPhases = (
+				37C6E74628D5408B00ADF3FA /* Sources */,
+				37C6E74728D5408B00ADF3FA /* Frameworks */,
+				37C6E74828D5408B00ADF3FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mfersapp (iOS)";
+			packageProductDependencies = (
+				376CB548295A556C006B9F47 /* ZoraAPI */,
+				376CB54A295A556C006B9F47 /* ZoraUI */,
+				376CB555295FB148006B9F47 /* ImageViewer */,
+				376CB557295FB148006B9F47 /* ImageViewerRemote */,
+			);
+			productName = "mfersapp (iOS)";
+			productReference = 37C6E74A28D5408B00ADF3FA /* mfersapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		37C6E74E28D5408B00ADF3FA /* mfersapp (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37C6E75D28D5408B00ADF3FA /* Build configuration list for PBXNativeTarget "mfersapp (macOS)" */;
+			buildPhases = (
+				37C6E74B28D5408B00ADF3FA /* Sources */,
+				37C6E74C28D5408B00ADF3FA /* Frameworks */,
+				37C6E74D28D5408B00ADF3FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mfersapp (macOS)";
+			productName = "mfersapp (macOS)";
+			productReference = 37C6E74F28D5408B00ADF3FA /* mfersapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3729B11128A76F0A0024A1DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					3729B11628A76F0A0024A1DE = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					3729B11A28A76F0A0024A1DE = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					37C6E74928D5408B00ADF3FA = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					37C6E74E28D5408B00ADF3FA = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 3729B11428A76F0A0024A1DE /* Build configuration list for PBXProject "mfers" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3729B11028A76F0A0024A1DE;
+			packageReferences = (
+				376CB547295A556C006B9F47 /* XCRemoteSwiftPackageReference "swift-zorakit" */,
+				376CB554295FB148006B9F47 /* XCRemoteSwiftPackageReference "swiftui-image-viewer" */,
+			);
+			productRefGroup = 3729B11828A76F0A0024A1DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3729B11628A76F0A0024A1DE /* mfers */,
+				3729B11A28A76F0A0024A1DE /* mfers StickerPackExtension */,
+				37C6E74928D5408B00ADF3FA /* mfersapp (iOS) */,
+				37C6E74E28D5408B00ADF3FA /* mfersapp (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3729B11528A76F0A0024A1DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3729B12128A76F0A0024A1DE /* Stickers.xcstickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3729B11928A76F0A0024A1DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3729B12028A76F0A0024A1DE /* Stickers.xcstickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37C6E74828D5408B00ADF3FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37C6E75628D5408B00ADF3FA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37C6E74D28D5408B00ADF3FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37C6E75728D5408B00ADF3FA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37C6E74628D5408B00ADF3FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37C6E75428D5408B00ADF3FA /* ContentView.swift in Sources */,
+				37C6E76028D5420800ADF3FA /* Extensions.swift in Sources */,
+				37C6E75228D5408B00ADF3FA /* mfersappApp.swift in Sources */,
+				37E1B97A295828360092F497 /* GenerateMferView.swift in Sources */,
+				37D9C28B28DA8A5B0030DB75 /* CreateMferView.swift in Sources */,
+				37C6E76328D544FF00ADF3FA /* MferGenerator.swift in Sources */,
+				37D9C28F28DA95DE0030DB75 /* MferImage.swift in Sources */,
+				376CB545295A54DF006B9F47 /* DaoView.swift in Sources */,
+				376CB552295A5BB1006B9F47 /* Color.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37C6E74B28D5408B00ADF3FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37C6E75528D5408B00ADF3FA /* ContentView.swift in Sources */,
+				37C6E76128D5420800ADF3FA /* Extensions.swift in Sources */,
+				37C6E75328D5408B00ADF3FA /* mfersappApp.swift in Sources */,
+				37E1B97B295828360092F497 /* GenerateMferView.swift in Sources */,
+				37D9C28C28DA8A5B0030DB75 /* CreateMferView.swift in Sources */,
+				37C6E76428D544FF00ADF3FA /* MferGenerator.swift in Sources */,
+				37D9C29028DA95DE0030DB75 /* MferImage.swift in Sources */,
+				376CB546295A54DF006B9F47 /* DaoView.swift in Sources */,
+				376CB553295A5BB1006B9F47 /* Color.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3729B11E28A76F0A0024A1DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3729B11A28A76F0A0024A1DE /* mfers StickerPackExtension */;
+			targetProxy = 3729B11D28A76F0A0024A1DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3729B12228A76F0A0024A1DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3729B12328A76F0A0024A1DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3729B12528A76F0A0024A1DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_ENTITLEMENTS = "mfers StickerPackExtension/mfers StickerPackExtension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SWH6G67QFC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "mfers StickerPackExtension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = sartoshi;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.heresmy.mfers.StickerPackExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3729B12628A76F0A0024A1DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_ENTITLEMENTS = "mfers StickerPackExtension/mfers StickerPackExtension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SWH6G67QFC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "mfers StickerPackExtension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = sartoshi;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.heresmy.mfers.StickerPackExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3729B12928A76F0A0024A1DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SWH6G67QFC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = mfers/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = sartoshi;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.heresmy.mfers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3729B12A28A76F0A0024A1DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SWH6G67QFC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = mfers/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = sartoshi;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.heresmy.mfers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		37C6E75828D5408B00ADF3FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "mfersapp (iOS).entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SWH6G67QFC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "mfersapp--iOS--Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.heresmy.mfersapp;
+				PRODUCT_NAME = mfersapp;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37C6E75928D5408B00ADF3FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "mfersapp (iOS).entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SWH6G67QFC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "mfersapp--iOS--Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.heresmy.mfersapp;
+				PRODUCT_NAME = mfersapp;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37C6E75A28D5408B00ADF3FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = SWH6G67QFC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.heresmy.mfersapp;
+				PRODUCT_NAME = mfersapp;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		37C6E75B28D5408B00ADF3FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = SWH6G67QFC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.heresmy.mfersapp;
+				PRODUCT_NAME = mfersapp;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3729B11428A76F0A0024A1DE /* Build configuration list for PBXProject "mfers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3729B12228A76F0A0024A1DE /* Debug */,
+				3729B12328A76F0A0024A1DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3729B12428A76F0A0024A1DE /* Build configuration list for PBXNativeTarget "mfers StickerPackExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3729B12528A76F0A0024A1DE /* Debug */,
+				3729B12628A76F0A0024A1DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3729B12828A76F0A0024A1DE /* Build configuration list for PBXNativeTarget "mfers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3729B12928A76F0A0024A1DE /* Debug */,
+				3729B12A28A76F0A0024A1DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37C6E75C28D5408B00ADF3FA /* Build configuration list for PBXNativeTarget "mfersapp (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37C6E75828D5408B00ADF3FA /* Debug */,
+				37C6E75928D5408B00ADF3FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37C6E75D28D5408B00ADF3FA /* Build configuration list for PBXNativeTarget "mfersapp (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37C6E75A28D5408B00ADF3FA /* Debug */,
+				37C6E75B28D5408B00ADF3FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		376CB547295A556C006B9F47 /* XCRemoteSwiftPackageReference "swift-zorakit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mbla-xyz/swift-zorakit?ref=iosexample.com";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		376CB554295FB148006B9F47 /* XCRemoteSwiftPackageReference "swiftui-image-viewer" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Jake-Short/swiftui-image-viewer";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		376CB548295A556C006B9F47 /* ZoraAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 376CB547295A556C006B9F47 /* XCRemoteSwiftPackageReference "swift-zorakit" */;
+			productName = ZoraAPI;
+		};
+		376CB54A295A556C006B9F47 /* ZoraUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 376CB547295A556C006B9F47 /* XCRemoteSwiftPackageReference "swift-zorakit" */;
+			productName = ZoraUI;
+		};
+		376CB555295FB148006B9F47 /* ImageViewer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 376CB554295FB148006B9F47 /* XCRemoteSwiftPackageReference "swiftui-image-viewer" */;
+			productName = ImageViewer;
+		};
+		376CB557295FB148006B9F47 /* ImageViewerRemote */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 376CB554295FB148006B9F47 /* XCRemoteSwiftPackageReference "swiftui-image-viewer" */;
+			productName = ImageViewerRemote;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3729B11128A76F0A0024A1DE /* Project object */;
+}

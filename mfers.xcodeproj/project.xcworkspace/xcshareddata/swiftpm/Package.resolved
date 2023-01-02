@@ -1,0 +1,59 @@
+{
+  "pins" : [
+    {
+      "identity" : "apollo-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apollographql/apollo-ios",
+      "state" : {
+        "revision" : "08a41bad4ebf76ae8e4efebf26862a42084b7786",
+        "version" : "0.51.2"
+      }
+    },
+    {
+      "identity" : "sqlite.swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/stephencelis/SQLite.swift.git",
+      "state" : {
+        "revision" : "4d543d811ee644fa4cc4bfa0be996b4dd6ba0f54",
+        "version" : "0.13.3"
+      }
+    },
+    {
+      "identity" : "svgview",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/exyte/SVGView",
+      "state" : {
+        "revision" : "1f0011ff3c745b4ab785997972ad4c52ce7d32f9",
+        "version" : "1.0.3"
+      }
+    },
+    {
+      "identity" : "swift-zorakit?ref=iosexample.com",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mbla-xyz/swift-zorakit?ref=iosexample.com",
+      "state" : {
+        "branch" : "main",
+        "revision" : "742c022c000484a4a7e338698ed9dc84ee6b43c4"
+      }
+    },
+    {
+      "identity" : "swiftui-image-viewer",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Jake-Short/swiftui-image-viewer",
+      "state" : {
+        "revision" : "f61f298c0100c81dfb0c7908091e68aad12a892c",
+        "version" : "2.3.1"
+      }
+    },
+    {
+      "identity" : "url-image",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/dmytro-anokhin/url-image.git",
+      "state" : {
+        "revision" : "ccab89ad1cedb04f25dd4df1776dd8c8583b914a",
+        "version" : "2.2.5"
+      }
+    }
+  ],
+  "version" : 2
+}
